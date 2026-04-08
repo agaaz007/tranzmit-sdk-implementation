@@ -12,10 +12,10 @@ Add this before `</body>` on any page with a cancel button:
 <button id="cancel-btn">Cancel Subscription</button>
 
 <script
-  src="https://api.tranzmitai.com/embed.js"
+  src="https://tranzmit-button-sdk-react-app.vercel.app/embed.js"
   data-api-key="eb_live_your_key_here"
   data-attach="#cancel-btn"
-  data-backend-url="https://api.tranzmitai.com"
+  data-backend-url="https://tranzmit-button-sdk-react-app.vercel.app"
   data-redirect-url="/dashboard"
   data-churn-redirect-url="/cancel-confirmed"
 ></script>
@@ -73,10 +73,10 @@ Match the modal to your brand:
 
 ```html
 <script
-  src="https://api.tranzmitai.com/embed.js"
+  src="https://tranzmit-button-sdk-react-app.vercel.app/embed.js"
   data-api-key="eb_live_your_key_here"
   data-attach="#cancel-btn"
-  data-backend-url="https://api.tranzmitai.com"
+  data-backend-url="https://tranzmit-button-sdk-react-app.vercel.app"
   data-theme='{
     "primaryColor": "#6C5CE7",
     "textColor": "#1a202c",
@@ -100,7 +100,7 @@ For programmatic control:
 ```javascript
 ExitButton.init({
   apiKey: 'eb_live_your_key_here',
-  backendUrl: 'https://api.tranzmitai.com',
+  backendUrl: 'https://tranzmit-button-sdk-react-app.vercel.app',
   attach: '#cancel-btn',
   planName: 'Pro',
   mrr: 49,
@@ -188,10 +188,10 @@ Use an `eb_test_` prefixed API key for mock mode — no real AI calls, no charge
 
 ```html
 <script
-  src="https://api.tranzmitai.com/embed.js"
+  src="https://tranzmit-button-sdk-react-app.vercel.app/embed.js"
   data-api-key="eb_test_your_key_here"
   data-attach="#cancel-btn"
-  data-backend-url="https://api.tranzmitai.com"
+  data-backend-url="https://tranzmit-button-sdk-react-app.vercel.app"
 ></script>
 ```
 
